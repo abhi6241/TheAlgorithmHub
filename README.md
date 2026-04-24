@@ -6,6 +6,10 @@ A curated, growing collection of algorithms and implementations across languages
 
 Released under the MIT License — see `LICENSE`.
 
+Tagline: "Collect, learn, and contribute implementations of algorithms — one hub for clear, tested code across languages."
+
+Call-to-action: Fork this repo, add your language or algorithm, and open a PR — help build the biggest open algorithms collection.
+
 ## What this repo is
 
 - A single place to store algorithm implementations (sorting, searching, graphs, DP, numeric methods, etc.).
@@ -27,38 +31,63 @@ Root files:
 - `.DS_Store` — macOS Finder metadata file (can be safely ignored or removed; included here because it exists in the working directory).
 - `.gitignore` — Ignore rules for macOS, common IDEs, build artifacts, and compiled files.
 - `README.md` — This file: project description, usage, contribution guide, and file index.
+- `CONTRIBUTING.md` — Contribution guide and PR checklist.
+- `LICENSE` — MIT License for the project.
 - `a.out` — Compiled executable (likely produced by compiling a C/C++ example). Consider removing or adding to `.gitignore` if not needed.
 
 Algorithm directories:
 
 - `sorting/` — C++ implementations of sorting algorithms:
-   - `bubblesort.cpp` — Bubble sort implementation with a small example.
-   - `bucketsort.cpp` — Bucket sort implementation.
-   - `countingsort.cpp` — Counting sort implementation.
-   - `cyclesort.cpp` — Cycle sort implementation.
-   - `heapsort.cpp` — Heap sort implementation.
-   - `insertionsort.cpp` — Insertion sort implementation.
-   - `introsort.cpp` — Introsort implementation (hybrid quick/heap sort).
-   - `mergesort.cpp` — Merge sort implementation.
-   - `pigeonholesort.cpp` — Pigeonhole sort implementation.
-   - `quicksort.cpp` — Quick sort implementation.
-   - `radixsort.cpp` — Radix sort implementation.
-   - `selectionsort.cpp` — Selection sort implementation.
-   - `threewaymergesort.cpp` — 3-way merge sort or variant.
-   - `timsort.cpp` — Timsort implementation (hybrid stable sort used by Python/Java).
+    - `bubblesort.cpp` — Bubble sort implementation with a small example.
+    - `bucketsort.cpp` — Bucket sort implementation.
+    - `countingsort.cpp` — Counting sort implementation.
+    - `cyclesort.cpp` — Cycle sort implementation.
+    - `heapsort.cpp` — Heap sort implementation.
+    - `insertionsort.cpp` — Insertion sort implementation.
+    - `introsort.cpp` — Introsort implementation (hybrid quick/heap sort).
+    - `mergesort.cpp` — Merge sort implementation.
+    - `pigeonholesort.cpp` — Pigeonhole sort implementation.
+    - `quicksort.cpp` — Quick sort implementation.
+    - `radixsort.cpp` — Radix sort implementation.
+    - `selectionsort.cpp` — Selection sort implementation.
+    - `threewaymergesort.cpp` — 3-way merge sort or variant.
+    - `timsort.cpp` — Timsort implementation (hybrid stable sort used by Python/Java).
 
-- `searching/` — C++ implementations of searching algorithms:
+- `searching/` — C++ implementations of searching and lookup algorithms:
+   - `avltreesearch.cpp` — Search/lookup using AVL trees.
+   - `b+treesearch.cpp` — B+ tree search operations.
+   - `b-treesearch.cpp` — B-tree search operations.
    - `binarysearch.cpp` — Binary search implementation for sorted arrays.
+   - `binarysearchtree.cpp` — Binary search tree insert/search/traverse examples.
+   - `breadthfirstsearch.cpp` — BFS graph traversal implementation.
+   - `chainingsearch.cpp` — Hash table chaining example (search in chained buckets).
+   - `depthfirstsearch.cpp` — DFS graph traversal implementation.
    - `exponentialsearch.cpp` — Exponential search (for unbounded/infinite lists).
    - `fibonaccisearch.cpp` — Fibonacci search implementation.
+   - `hashtablesearch.cpp` — Hash table lookup examples.
    - `interpolationsearch.cpp` — Interpolation search implementation (for uniformly distributed data).
    - `jumpsearch.cpp` — Jump search implementation.
    - `linearsearch.cpp` — Linear search implementation.
+   - `openaddressingsearch.cpp` — Hash table open addressing example.
+   - `redblacktreesearch.cpp` — Red-black tree search/insert examples.
+
+- `pathfinding/` — Pathfinding and graph-search algorithms:
+   - `a*search.cpp` — A* search implementation (heuristic-guided shortest path).
+   - `dijkstraalgorithm.cpp` — Dijkstra's shortest path algorithm.
+   - `greedybestfirstsearch.cpp` — Greedy Best-First Search implementation.
+
+- `patternmatching/` — String and pattern matching algorithms:
+   - `boyermoore.cpp` — Boyer–Moore string search algorithm.
+   - `kmpmatching.cpp` — Knuth–Morris–Pratt algorithm.
+   - `naivestringmatching.cpp` — Naive string matching (educational example).
+   - `rabinkarpmatching.cpp` — Rabin–Karp rolling-hash search.
+   - `z-algorithm.cpp` — Z-algorithm for pattern matching.
 
 Notes and recommendations:
 
 - Many files are C++ source files (`*.cpp`) implementing standard algorithms; each file should include a short usage example and complexity notes near the top.
 - `a.out` is a binary and should typically be removed from the repo or added to `.gitignore` to avoid committing built artifacts.
+- There is a duplicate `linearsearch.cpp` in `sorting/` and `searching/`; consider keeping the one in `searching/` and removing/moving the other.
 - If you'd like, I can reorganize the repository into language-named folders (`cpp/`, `python/`, etc.) and move these files into a `cpp/` folder to make the layout clearer.
 
 (As the repository grows, this section can be kept up-to-date automatically with a script or CI step that regenerates the inventory.)
