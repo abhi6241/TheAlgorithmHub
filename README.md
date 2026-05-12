@@ -40,18 +40,21 @@ Algorithm directories:
 - [`sorting/`](sorting/) — C++ implementations of sorting algorithms:
     - [`bubblesort.cpp`](sorting/bubblesort.cpp) — Bubble sort implementation with a small example.
     - [`bucketsort.cpp`](sorting/bucketsort.cpp) — Bucket sort implementation.
-    - [`countingsort.cpp`](sorting/countingsort.cpp) — Counting sort implementation.
-    - [`cyclesort.cpp`](sorting/cyclesort.cpp) — Cycle sort implementation.
-    - [`heapsort.cpp`](sorting/heapsort.cpp) — Heap sort implementation.
-    - [`insertionsort.cpp`](sorting/insertionsort.cpp) — Insertion sort implementation.
-    - [`introsort.cpp`](sorting/introsort.cpp) — Introsort implementation (hybrid quick/heap sort).
-    - [`mergesort.cpp`](sorting/mergesort.cpp) — Merge sort implementation.
-    - [`pigeonholesort.cpp`](sorting/pigeonholesort.cpp) — Pigeonhole sort implementation.
-    - [`quicksort.cpp`](sorting/quicksort.cpp) — Quick sort implementation.
-    - [`radixsort.cpp`](sorting/radixsort.cpp) — Radix sort implementation.
-    - [`selectionsort.cpp`](sorting/selectionsort.cpp) — Selection sort implementation.
-    - [`threewaymergesort.cpp`](sorting/threewaymergesort.cpp) — 3-way merge sort or variant.
-    - [`timsort.cpp`](sorting/timsort.cpp) — Timsort implementation (hybrid stable sort used by Python/Java).
+   - [`countingsort.cpp`](sorting/countingsort.cpp) — Counting sort implementation.
+   - [`cyclesort.cpp`](sorting/cyclesort.cpp) — Cycle sort implementation.
+   - [`heapsort.cpp`](sorting/heapsort.cpp) — Heap sort implementation.
+   - [`insertionsort.cpp`](sorting/insertionsort.cpp) — Insertion sort implementation.
+   - [`introsort.cpp`](sorting/introsort.cpp) — Introsort implementation (hybrid quick/heap sort).
+   - [`mergesort.cpp`](sorting/mergesort.cpp) — Merge sort implementation.
+   - [`combsort.cpp`](sorting/combsort.cpp) — Comb sort implementation.
+   - [`pancakesort.cpp`](sorting/pancakesort.cpp) — Pancake sort implementation.
+   - [`pigeonholesort.cpp`](sorting/pigeonholesort.cpp) — Pigeonhole sort implementation.
+   - [`quicksort.cpp`](sorting/quicksort.cpp) — Quick sort implementation.
+   - [`radixsort.cpp`](sorting/radixsort.cpp) — Radix sort implementation.
+   - [`selectionsort.cpp`](sorting/selectionsort.cpp) — Selection sort implementation.
+   - [`shellsort.cpp`](sorting/shellsort.cpp) — Shell sort implementation.
+   - [`threewaymergesort.cpp`](sorting/threewaymergesort.cpp) — 3-way merge sort or variant.
+   - [`timsort.cpp`](sorting/timsort.cpp) — Timsort implementation (hybrid stable sort used by Python/Java).
 
 - [`searching/`](searching/) — C++ implementations of searching and lookup algorithms:
    - [`avltreesearch.cpp`](searching/avltreesearch.cpp) — Search/lookup using AVL trees.
