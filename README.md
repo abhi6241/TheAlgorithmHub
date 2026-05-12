@@ -38,53 +38,53 @@ Root files:
 Algorithm directories:
 
 - [`sorting/`](sorting/) — C++ implementations of sorting algorithms:
-    - [`bubblesort.cpp`](sorting/bubblesort.cpp) — Bubble sort implementation with a small example.
-    - [`bucketsort.cpp`](sorting/bucketsort.cpp) — Bucket sort implementation.
-   - [`countingsort.cpp`](sorting/countingsort.cpp) — Counting sort implementation.
-   - [`cyclesort.cpp`](sorting/cyclesort.cpp) — Cycle sort implementation.
-   - [`heapsort.cpp`](sorting/heapsort.cpp) — Heap sort implementation.
-   - [`insertionsort.cpp`](sorting/insertionsort.cpp) — Insertion sort implementation.
-   - [`introsort.cpp`](sorting/introsort.cpp) — Introsort implementation (hybrid quick/heap sort).
-   - [`mergesort.cpp`](sorting/mergesort.cpp) — Merge sort implementation.
-   - [`combsort.cpp`](sorting/combsort.cpp) — Comb sort implementation.
-   - [`pancakesort.cpp`](sorting/pancakesort.cpp) — Pancake sort implementation.
-   - [`pigeonholesort.cpp`](sorting/pigeonholesort.cpp) — Pigeonhole sort implementation.
-   - [`quicksort.cpp`](sorting/quicksort.cpp) — Quick sort implementation.
-   - [`radixsort.cpp`](sorting/radixsort.cpp) — Radix sort implementation.
-   - [`selectionsort.cpp`](sorting/selectionsort.cpp) — Selection sort implementation.
-   - [`shellsort.cpp`](sorting/shellsort.cpp) — Shell sort implementation.
-   - [`threewaymergesort.cpp`](sorting/threewaymergesort.cpp) — 3-way merge sort or variant.
-   - [`timsort.cpp`](sorting/timsort.cpp) — Timsort implementation (hybrid stable sort used by Python/Java).
+- [`bubblesort.cpp`](sorting/bubblesort.cpp) — Bubble sort implementation with a small example.
+- [`bucketsort.cpp`](sorting/bucketsort.cpp) — Bucket sort implementation.
+- [`countingsort.cpp`](sorting/countingsort.cpp) — Counting sort implementation.
+- [`cyclesort.cpp`](sorting/cyclesort.cpp) — Cycle sort implementation.
+- [`heapsort.cpp`](sorting/heapsort.cpp) — Heap sort implementation.
+- [`insertionsort.cpp`](sorting/insertionsort.cpp) — Insertion sort implementation.
+- [`introsort.cpp`](sorting/introsort.cpp) — Introsort implementation (hybrid quick/heap sort).
+- [`mergesort.cpp`](sorting/mergesort.cpp) — Merge sort implementation.
+- [`combsort.cpp`](sorting/combsort.cpp) — Comb sort implementation.
+- [`pancakesort.cpp`](sorting/pancakesort.cpp) — Pancake sort implementation.
+- [`pigeonholesort.cpp`](sorting/pigeonholesort.cpp) — Pigeonhole sort implementation.
+- [`quicksort.cpp`](sorting/quicksort.cpp) — Quick sort implementation.
+- [`radixsort.cpp`](sorting/radixsort.cpp) — Radix sort implementation.
+- [`selectionsort.cpp`](sorting/selectionsort.cpp) — Selection sort implementation.
+- [`shellsort.cpp`](sorting/shellsort.cpp) — Shell sort implementation.
+- [`threewaymergesort.cpp`](sorting/threewaymergesort.cpp) — 3-way merge sort or variant.
+- [`timsort.cpp`](sorting/timsort.cpp) — Timsort implementation (hybrid stable sort used by Python/Java).
 
 - [`searching/`](searching/) — C++ implementations of searching and lookup algorithms:
-   - [`avltreesearch.cpp`](searching/avltreesearch.cpp) — Search/lookup using AVL trees.
-   - [`b+treesearch.cpp`](searching/b+treesearch.cpp) — B+ tree search operations.
-   - [`b-treesearch.cpp`](searching/b-treesearch.cpp) — B-tree search operations.
-   - [`binarysearch.cpp`](searching/binarysearch.cpp) — Binary search implementation for sorted arrays.
-   - [`binarysearchtree.cpp`](searching/binarysearchtree.cpp) — Binary search tree insert/search/traverse examples.
-   - [`breadthfirstsearch.cpp`](searching/breadthfirstsearch.cpp) — BFS graph traversal implementation.
-   - [`chainingsearch.cpp`](searching/chainingsearch.cpp) — Hash table chaining example (search in chained buckets).
-   - [`depthfirstsearch.cpp`](searching/depthfirstsearch.cpp) — DFS graph traversal implementation.
-   - [`exponentialsearch.cpp`](searching/exponentialsearch.cpp) — Exponential search (for unbounded/infinite lists).
-   - [`fibonaccisearch.cpp`](searching/fibonaccisearch.cpp) — Fibonacci search implementation.
-   - [`hashtablesearch.cpp`](searching/hashtablesearch.cpp) — Hash table lookup examples.
-   - [`interpolationsearch.cpp`](searching/interpolationsearch.cpp) — Interpolation search implementation (for uniformly distributed data).
-   - [`jumpsearch.cpp`](searching/jumpsearch.cpp) — Jump search implementation.
-   - [`linearsearch.cpp`](searching/linearsearch.cpp) — Linear search implementation.
-   - [`openaddressingsearch.cpp`](searching/openaddressingsearch.cpp) — Hash table open addressing example.
-   - [`redblacktreesearch.cpp`](searching/redblacktreesearch.cpp) — Red-black tree search/insert examples.
+- [`avltreesearch.cpp`](searching/avltreesearch.cpp) — Search/lookup using AVL trees.
+- [`b+treesearch.cpp`](searching/b+treesearch.cpp) — B+ tree search operations.
+- [`b-treesearch.cpp`](searching/b-treesearch.cpp) — B-tree search operations.
+- [`binarysearch.cpp`](searching/binarysearch.cpp) — Binary search implementation for sorted arrays.
+- [`binarysearchtree.cpp`](searching/binarysearchtree.cpp) — Binary search tree insert/search/traverse examples.
+- [`breadthfirstsearch.cpp`](searching/breadthfirstsearch.cpp) — BFS graph traversal implementation.
+- [`chainingsearch.cpp`](searching/chainingsearch.cpp) — Hash table chaining example (search in chained buckets).
+- [`depthfirstsearch.cpp`](searching/depthfirstsearch.cpp) — DFS graph traversal implementation.
+- [`exponentialsearch.cpp`](searching/exponentialsearch.cpp) — Exponential search (for unbounded/infinite lists).
+- [`fibonaccisearch.cpp`](searching/fibonaccisearch.cpp) — Fibonacci search implementation.
+- [`hashtablesearch.cpp`](searching/hashtablesearch.cpp) — Hash table lookup examples.
+- [`interpolationsearch.cpp`](searching/interpolationsearch.cpp) — Interpolation search implementation (for uniformly distributed data).
+- [`jumpsearch.cpp`](searching/jumpsearch.cpp) — Jump search implementation.
+- [`linearsearch.cpp`](searching/linearsearch.cpp) — Linear search implementation.
+- [`openaddressingsearch.cpp`](searching/openaddressingsearch.cpp) — Hash table open addressing example.
+- [`redblacktreesearch.cpp`](searching/redblacktreesearch.cpp) — Red-black tree search/insert examples.
 
 - [`pathfinding/`](pathfinding/) — Pathfinding and graph-search algorithms:
-   - [`a*search.cpp`](pathfinding/a*search.cpp) — A* search implementation (heuristic-guided shortest path).
-   - [`dijkstraalgorithm.cpp`](pathfinding/dijkstraalgorithm.cpp) — Dijkstra's shortest path algorithm.
-   - [`greedybestfirstsearch.cpp`](pathfinding/greedybestfirstsearch.cpp) — Greedy Best-First Search implementation.
+- [`a*search.cpp`](pathfinding/a*search.cpp) — A* search implementation (heuristic-guided shortest path).
+- [`dijkstraalgorithm.cpp`](pathfinding/dijkstraalgorithm.cpp) — Dijkstra's shortest path algorithm.
+- [`greedybestfirstsearch.cpp`](pathfinding/greedybestfirstsearch.cpp) — Greedy Best-First Search implementation.
 
 - [`patternmatching/`](patternmatching/) — String and pattern matching algorithms:
-   - [`boyermoore.cpp`](patternmatching/boyermoore.cpp) — Boyer–Moore string search algorithm.
-   - [`kmpmatching.cpp`](patternmatching/kmpmatching.cpp) — Knuth–Morris–Pratt algorithm.
-   - [`naivestringmatching.cpp`](patternmatching/naivestringmatching.cpp) — Naive string matching (educational example).
-   - [`rabinkarpmatching.cpp`](patternmatching/rabinkarpmatching.cpp) — Rabin–Karp rolling-hash search.
-   - [`z-algorithm.cpp`](patternmatching/z-algorithm.cpp) — Z-algorithm for pattern matching.
+- [`boyermoore.cpp`](patternmatching/boyermoore.cpp) — Boyer–Moore string search algorithm.
+- [`kmpmatching.cpp`](patternmatching/kmpmatching.cpp) — Knuth–Morris–Pratt algorithm.
+- [`naivestringmatching.cpp`](patternmatching/naivestringmatching.cpp) — Naive string matching (educational example).
+- [`rabinkarpmatching.cpp`](patternmatching/rabinkarpmatching.cpp) — Rabin–Karp rolling-hash search.
+- [`z-algorithm.cpp`](patternmatching/z-algorithm.cpp) — Z-algorithm for pattern matching.
 
 Notes and recommendations:
 
@@ -141,4 +141,3 @@ See `CONTRIBUTING.md` for a short checklist and contribution guidelines.
 Please fork, add algorithms, and send PRs. Share this repo with peers and on social platforms. The more contributors and implementations, the more valuable this hub becomes — let's make it big together!
 
 ---
-
